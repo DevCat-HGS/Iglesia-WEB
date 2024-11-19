@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-900 bg-gray-50;
+  }
+}
+
+@layer components {
+  .verse {
+    @apply cursor-pointer hover:bg-indigo-50 p-2 rounded-lg transition-colors;
+  }
+}
+
+.bible-content {
+  @apply prose prose-indigo max-w-none;
+}
